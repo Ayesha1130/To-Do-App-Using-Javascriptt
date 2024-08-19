@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url(color4.avif);
+
+}
+.Todo-Container{
+    width: 400px;
+    padding: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 30%; 
+    margin-left: 35%; 
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    background-color:rgb(201, 16, 127);
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 30px;
+    padding: 10px;
+
+
+ 
+}
+input{
+    width: 300px;
+    padding: 8px;
+    border: 2px solid coral;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+button{
+    width: 70px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: rgb(201, 16, 127);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40%;
+  
+}
+.inputs button:hover{
+    background-color: coral;
+}
+.text ul{
+    position: relative;
+    background-color: rgb(251, 143, 190);
+    color: rgb(12, 12, 8);
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    padding: 6px;
+    list-style: none;
+    border-radius: 5px;
+    width: 300px;
+    border: 2px solid rgb(9, 8, 8);
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
